@@ -4,7 +4,7 @@
 
 ### 中文
 
-- 首个公开版本：本地优先的 Flutter 记账本，支持 macOS、Windows 工程和 Android。
+- 首个公开版本：本地优先的 Flutter 记账本，支持 macOS、Android，以及由 GitHub Actions 构建的 Windows x64 包。
 - 支持当前金额校准、实时余额、收入/支出新增编辑删除、撤销删除和按天归档。
 - 支持微信支付、支付宝账单 CSV / XLSX / 文本导入，写入前先预览有效、重复和错误记录。
 - 新增分类图标、导入来源图标和正式应用图标。
@@ -13,7 +13,7 @@
 
 ### English
 
-- First public release: a local-first Flutter bookkeeping app for macOS, Windows project source, and Android.
+- First public release: a local-first Flutter bookkeeping app for macOS, Android, and a Windows x64 package built by GitHub Actions.
 - Supports current balance anchoring, real-time balance, entry create/edit/delete/restore, and daily archives.
 - Supports WeChat Pay and Alipay bill import from CSV, XLSX, and pasted table text with preview before saving.
 - Adds category icons, import source icons, and a custom app icon.
