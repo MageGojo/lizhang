@@ -14,9 +14,9 @@
 
 - macOS：下载 `Lizhang-1.0.0-macOS.dmg`
 - Android：下载 `Lizhang-1.0.0-Android.apk`
-- Windows：当前源码已包含 Windows 工程，需要在 Windows 主机执行 `flutter build windows` 生成桌面程序
+- Windows：下载 `Lizhang-1.0.0-Windows-x64.zip`，或在 Windows 主机执行 `flutter build windows` 自行构建
 
-macOS 初次打开如果遇到系统安全提示，可以在“系统设置 -> 隐私与安全性”中允许打开。Android 安装 APK 时需要允许从当前来源安装应用。
+macOS 初次打开如果遇到系统安全提示，可以在“系统设置 -> 隐私与安全性”中允许打开。Android 安装 APK 时需要允许从当前来源安装应用。Windows zip 解压后运行 `lizhang.exe`。
 
 ## 主要功能
 
@@ -98,8 +98,8 @@ Flutter 不支持在 macOS 上交叉构建 Windows `.exe`。
 **AI 分析会上传隐私吗？**  
 首版没有上传账单数据。后续 AI 分析会优先只处理聚合数字，例如分类占比和收支趋势。
 
-**Windows 为什么没有直接下载包？**  
-当前开发和发布环境是 macOS，无法直接构建 Windows 程序。源码已包含 Windows 工程，Windows 主机可运行 `flutter build windows` 生成。
+**Windows 可以直接下载吗？**  
+可以。Release 提供 GitHub Actions 在 Windows x64 环境构建的 zip 包；你也可以在 Windows 主机运行 `flutter build windows` 自行生成。
 
 ---
 
@@ -117,7 +117,7 @@ Get the latest build from GitHub Releases:
 
 - macOS: `Lizhang-1.0.0-macOS.dmg`
 - Android: `Lizhang-1.0.0-Android.apk`
-- Windows: the Windows project is included; build it on a Windows host with `flutter build windows`
+- Windows: `Lizhang-1.0.0-Windows-x64.zip`, or build it on a Windows host with `flutter build windows`
 
 ## Features
 
@@ -185,5 +185,5 @@ Yes. The first release supports common CSV, XLSX, and pasted table formats, with
 **Will AI analysis upload private transaction details?**  
 The first release does not upload ledger data. Future AI features should work from aggregate numeric summaries rather than raw private transactions.
 
-**Why is there no Windows download yet?**  
-The current release machine is macOS, and Flutter requires a Windows host to build Windows desktop binaries. The Windows project files are included in the source.
+**Is there a Windows download?**  
+Yes. The Release provides a Windows x64 zip built by GitHub Actions. You can also build the Windows desktop app yourself on a Windows host.

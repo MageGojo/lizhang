@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.magegojo" "\0"
+            VALUE "CompanyName", "极数本源 ApiZero" "\0"
             VALUE "FileDescription", "璃账" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "lizhang" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.magegojo. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 极数本源 ApiZero. All rights reserved." "\0"
             VALUE "OriginalFilename", "lizhang.exe" "\0"
             VALUE "ProductName", "璃账" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
